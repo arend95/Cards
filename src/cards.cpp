@@ -26,8 +26,8 @@ void cards::set_deck() {
     }
 }
 
-// Maikel, hier kan dus een beter RNG in gezet worden
 void cards::shuffle_deck() {
+     srand( (unsigned)time( NULL ) );
      std::random_shuffle( deck.begin(), deck.end() );
 }
 
