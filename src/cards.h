@@ -7,6 +7,7 @@ using namespace std;
 #include <vector>
 #include <string>
 #include <ctime>   
+#include <time.h>
 
 #ifndef __cards_h
 #define __cards_h
